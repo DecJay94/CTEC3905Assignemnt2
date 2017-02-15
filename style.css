@@ -5,3 +5,52 @@ body {
 p1 {
     font-family: sans-serif;
 }
+
+#navi {
+    height: 50px;
+    width: auto;
+    background-color: transparent;
+}
+
+#left {
+    height:240px;
+    width: 50%;
+    background-color: blueviolet;
+}
+
+#right {
+    position: absolute;
+    height: 240px;
+    width: 710px;
+    top:66px;
+    left: 50%;
+    background-color: chartreuse;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: green;
+}
