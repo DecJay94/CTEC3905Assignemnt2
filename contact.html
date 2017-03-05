@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+<title> </title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>DecJay's Reviews - Contact us</title>
+</head>
+    
+<body>
+    <div id="navi">
+    <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="reviews.html">Reviews</a></li>
+            <li><a class="active" href="">Contact</a></li>
+            <li style="float:right"><a href="about.html">About</a></li>
+        </ul>
+    </div>
+    <div id="left">
+    <h1>Mailing list</h1>
+    <p>Never miss an update by joining our mailing list below</p>
+    <br/>
+    <br/>
+        <!--Need to look at encription for the mailing list -->
+    <form action="mailto:declan.searson@icloud.com" method="post" enctype="text/plain">
+        First Name:<br/>
+        <input type="text" name="firstname"><br/>
+        Family Name:<br/>
+        <input type="text" name="familyname"><br/>
+        Email Address:<br/>
+        <input type="email" name="emailaddress"><br/>
+        <input type="submit" value="submit">
+        <input type="reset" value="reset">
+        </form>
+        <br/>
+
+    <div id="right">
+        <h1>Find Us</h1> <div id="map">
+        <script src="gmap.js">
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDYrmXaeEaVogYUxSpqtrEEXk4U5-kOcZM&callback=initMap">
+    </script>
+        </div>
+    </div>
+    </div>
+    </body>
