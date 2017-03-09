@@ -26,6 +26,11 @@ h3 {
     font-size: 25px;
 }
 
+h4 {
+    font-family: sans-serif;
+    text-align: center;
+}
+
 #navi {
     height: 50px;
     width: auto;
@@ -36,6 +41,23 @@ h3 {
     height:100%;
     width: 70%;
     background-color: transparent;
+}
+
+#aboutleft {
+    top:60px;
+    position: absolute;
+    height:auto;
+    width: 30%;
+    background-color: transparent;
+}
+
+#aboutright {
+    top:60px;
+    position: absolute;
+    height:auto;
+    width:68%;
+    left: 31%;
+    background-color: blueviolet;
 }
 
 #right {
@@ -128,4 +150,27 @@ li.dropdown {
 
 .dropdown:hover .dropdown-content {
     display:block;
+}
+
+#me {
+    box-shadow: 8px, 8px, 10px, #aaa;
+    border-radius: 100%;
+}
+
+#saul {
+    box-shadow: 8px, 8px, 10px, #aaa;
+    border-radius: 100%;
+}
+
+input {
+    width: 85%;
+}
+
+input [type=button], input [type=submit], input [type=reset] {
+    background-color: black;
+    
+}
+
+textarea {
+    background-color: #f8f8f8;
 }
