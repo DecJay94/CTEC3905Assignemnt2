@@ -13,3 +13,6 @@ Added reviews<br>
 Added google map support<br>
 Added newsletter sign up form <br>
 Unalbe to get dropdown form to work as required so built site diffrently, will go back to the dropdown at a later date
+
+Fourth Upload 10/03/17<br>
+included external video, image slider, automated image slider, HTML form with CSS styling, google map support, CSS animations
