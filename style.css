@@ -1,5 +1,5 @@
 body {
-    background-color:transparent;
+    background-color: transparent;
 }
 
 p {
@@ -57,7 +57,7 @@ h4 {
     height:auto;
     width:68%;
     left: 31%;
-    background-color: blueviolet;
+    background-color: transparent;
 }
 
 #right {
@@ -155,22 +155,38 @@ li.dropdown {
 #me {
     box-shadow: 8px, 8px, 10px, #aaa;
     border-radius: 100%;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+            transition:         transform .8s ease-in-out;
+}
+
+#me:hover {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
 }
 
 #saul {
     box-shadow: 8px, 8px, 10px, #aaa;
     border-radius: 100%;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+            transition:         transform .8s ease-in-out;
+}
+
+#saul:hover {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
 }
 
 input {
     width: 85%;
+    padding:12px 20px;
+    margin: 8px; 0;
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 4pc;
 }
 
-input [type=button], input [type=submit], input [type=reset] {
-    background-color: black;
-    
-}
-
-textarea {
-    background-color: #f8f8f8;
+image/Thustmaster.jpeg.displayed {
+    display: block;
+    margin-left: auto; 
+    margin-right: auto;
 }
